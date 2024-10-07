@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>template</artifactId>
+	<artifactId>aa82265628</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>template</name>
+	<name>aa82265628</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -29,6 +29,21 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	<!-- lib import용 repo 설정 -->
+	<repositories>
+		<repository>
+		    <id>github</id>
+		    <url>https://maven.pkg.github.com/esteban-lee/aa82265628</url>
+		</repository>
+	</repositories>
+	<!-- package publish용 repo 설정 -->
+	<distributionManagement>
+		<repository>
+		    <id>github</id>
+		    <name>GitHub axccoe Apache Maven Packages</name>
+		    <url>https://maven.pkg.github.com/esteban-lee/aa82265628</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencies>
 	    <dependency>
